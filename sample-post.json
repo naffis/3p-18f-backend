@@ -1,0 +1,67 @@
+{
+    "number": "123456789",    
+    "email_address": "johnsmith@domain.com",
+    "name": "John Smith",
+    "statement": "1",    
+    "signature": "/John Doe/",
+    "Patents": [
+        {
+            "number": "12345",
+            "description": "patent description1",            
+            "description_uri": "http://somedomain.com/patent1.pdf"
+        },
+        {
+            "number": "54321",
+            "description": "patent description2",
+            "description_uri": "http://somedomain.com/patent2.pdf"
+        }
+    ],
+    "Nonpatentliteratures": [
+        {
+            "title": "nonpatenttitle1", 
+            "author": "nonpatent author1",
+            "pages": "1-5",
+            "description": "nonpatent description1",
+            "non_english": false,
+            "nonpatentliterature_uri": "http://somedomain.com/nonpatent1.pdf"
+        },
+        {
+            "title": "nonpatenttitle2",
+            "author": "nonpatent author2",
+            "pages": "6-10",
+            "description": "nonpatent description2",
+            "non_english": false,
+            "nonpatentliterature_uri": "http://somedomain.com/nonpatent2.pdf"
+        }
+    ],
+    "Foreignreferences": [
+        {
+            "title": "foreigntitle1",
+            "author": "foreignlit author1",
+            "pages": "1-5",
+            "description": "foreignliterator description1",
+            "non_english": false,
+            "foreignreference_uri": "http://somedomain.com/foreignpdf1.pdf"
+        },
+        {
+            "title": "foreigntitle2",
+            "author": "foreignlit author2",
+            "pages": "6-10",
+            "description": "foreignliterator description2",
+            "non_english": false,
+            "foreignreference_uri": "http://somedomain.com/foreignpdf2.pdf"
+        }
+    ],
+    "Applications": [
+        {
+            "number": "applicationtitle1",
+            "description": "application description1",
+            "application_uri": "http://somedomain.com/application1.pdf"
+        },
+        {
+            "number": "applicationtitle2",
+            "description": "application description2",        
+            "application_uri": "http://somedomain.com/application2.pdf"
+        }        
+    ]
+}
